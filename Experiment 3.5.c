@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <conio.h>
 int main() {
+    printf("Name - Akshat Singh Rawat\nSAP ID - 590028778\nCourse - BCA\nBatch - B6");
+    printf("\n--------------------------------------------\n");
     int year, i, leapYears = 0, normalYears = 0, totalDays, day;
     printf("Enter the year: ");
     scanf("%d", &year);
@@ -30,3 +32,4 @@ int main() {
     getch ();
     return 0;
 }
+
